@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Challenge Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header-container">
+    <h1 class="header-title">Edit custom challenge</h1>
+   <a href="index.html" class="close-button">×</a>
+  </div>
+
+  <div class="form-group">
+    <label>Challenge Name:</label>
+    <input type="text" placeholder="Challenge name here">
+  </div>
+
+  <div class="form-group">
+    <label>Difficulty:</label>
+    <select>
+      <option>Easy</option>
+      <option>Medium</option>
+      <option>Hard</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Short description:</label>
+    <input type="text" placeholder="Short description here">
+  </div>
+
+  <div class="form-group">
+    <label>Description:</label>
+    <textarea rows="4" placeholder="Detailed description here"></textarea>
+  </div>
+
+  <div class="test-cases">
+    <div class="form-group">
+      <label>Input type:</label>
+      <input type="text" placeholder="Array of integers">
+    </div>
+
+    <div class="form-group">
+      <label>Output type:</label>
+      <input type="text" placeholder="Integer">
+    </div>
+
+    <label>Required test cases:</label>
+    <div class="test-case">
+      <input type="text" placeholder="Input">
+      <input type="text" placeholder="Output">
+    </div>
+    <div class="test-case">
+      <input type="text" placeholder="Input">
+      <input type="text" placeholder="Output">
+    </div>
+    <div class="test-case">
+      <input type="text" placeholder="Input">
+      <input type="text" placeholder="Output">
+    </div>
+    <!-- Add more test-case divs as needed -->
+
+  </div>
+
+  <div class="buttons">
+    <button class="button">Update custom challenge</button>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+

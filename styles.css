@@ -1,0 +1,373 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 60px; /* Adjust distance for header height */
+}
+
+/* Header container styling */
+.header-container {
+    background-color: #3182ce; /* Blue background */
+    color: #ffffff; /* White text */
+    display: flex;
+    justify-content: space-between; /* Space between title and close button */
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+/* Title styling */
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Close button styling */
+.close-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Modal styling */
+.modal {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Modal title */
+.modal-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Frameworks container */
+.frameworks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Framework card styling */
+.framework-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px); /* Four columns layout */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.framework-card p {
+    color: #888;
+    opacity: 0.8;
+}
+
+.framework-card img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Tag styling */
+.tag {
+    background-color: #ddd;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Button containers */
+.buttons {
+    margin-top: 15px;
+}
+
+/* Button styling for continue and guide buttons */
+.continue-btn, .guide-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.continue-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.guide-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    margin-left: 10px;
+}
+
+/* Container styling for edit custom challenge */
+.container {
+    width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Reapply header styling in container for specific cases */
+.container .header-container {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Title styling in container */
+.container .header-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Close button styling */
+.container .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Form group styling */
+.form-group {
+    margin-top: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"], .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Container buttons styling */
+.container .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Update button styling */
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Test cases styling */
+.test-cases {
+    margin-top: 15px;
+}
+
+/* Test case input styling */
+.test-case {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.test-case input {
+    width: 45%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+/* Parent container to center content */
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 40px;
+}
+
+/* Container for content */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fefefe;
+}
+
+.close-button:hover {
+    color: #f0ecec;
+}
+
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.difficulty-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.difficulty-label {
+    font-size: 14px;
+}
+
+.difficulty-select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Input description */
+.input-description {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input-description:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* CTA Button */
+.cta-button {
+    background-color: #3e7af2;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0;
+    display: block; /* Ensures the button behaves like a block element */
+    text-align: center;
+    transition: background-color 0.3s;
+    
+}
+
+.cta-button:hover {
+    background-color: #f7f8fb;
+}
+.description-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 10px; /* Space between label and input */
+}
+
+.description-label {
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap; /* Prevent label from wrapping */
+    width: 120px; /* Fixed width for the label */
+}
+
+.input-description {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    flex: 1; /* Allow the input to take the remaining space */
+}
+
+.input-description:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.continue-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Wrapper styling */
+.content-wrapper {
+    background-color: #ffffff;  /* Màu nền trắng cho khung */
+    padding: 30px;              /* Khoảng cách bên trong khung */
+    border-radius: 8px;         /* Bo tròn các góc */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    max-width: 700px;           /* Giới hạn chiều rộng của khung */
+    margin: 40px auto;          /* Căn giữa khung và tạo khoảng trống trên dưới */
+}
